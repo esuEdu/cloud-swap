@@ -39,14 +39,14 @@ Credentials are stored in:
 
 ```json
 {
-  "name": "temp-admin",
-  "provider": "aws",
-  "access_key": "ASIAxxxxxxxx",
-  "secret_key": "xxxxxxxxxxxx",
-  "session_token": "IQoJb3JpZ2luX2VjEP///////////",
-  "expires_at": "2025-01-27T10:30:00Z",
-  "region": "us-west-2"
-  "output": "json"
+	"name": "temp-admin",
+	"provider": "aws",
+	"access_key": "ASIAxxxxxxxx",
+	"secret_key": "xxxxxxxxxxxx",
+	"session_token": "IQoJb3JpZ2luX2VjEP///////////",
+	"expires_at": "2025-01-27T10:30:00Z",
+	"region": "us-west-2",
+	"output": "json"
 }
 ```
 
@@ -54,30 +54,30 @@ Credentials are stored in:
 
 ```json
 {
-	"profiles": [
+	"credentials": [
 		{
 			"name": "work",
 			"provider": "aws",
 			"access_key": "AKIAWORK123",
 			"secret_key": "WORKSECRETXYZ",
-			"region": "us-east-1"
-            "output": "json"
+			"region": "us-east-1",
+			"output": "json"
 		},
 		{
 			"name": "personal",
 			"provider": "aws",
 			"access_key": "AKIAPERSONAL123",
 			"secret_key": "PERSONALSECRETXYZ",
-			"region": "sa-east-1"
-            "output": "json"
+			"region": "sa-east-1",
+			"output": "json"
 		},
 		{
 			"name": "study",
 			"provider": "aws",
 			"access_key": "AKIASTUDY123",
 			"secret_key": "STUDYSECRETXYZ",
-			"region": "us-west-2"
-            "output": "json"
+			"region": "us-west-2",
+			"output": "json"
 		},
 		{
 			"name": "temp-admin",
@@ -86,8 +86,8 @@ Credentials are stored in:
 			"secret_key": "TEMPSECRETXYZ",
 			"session_token": "IQoJb3JpZ2luX2Vj...",
 			"expires_at": "2025-01-27T10:30:00Z",
-			"region": "us-east-1"
-            "output": "json"
+			"region": "us-east-1",
+			"output": "json"
 		}
 	]
 }
